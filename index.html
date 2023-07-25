@@ -14,264 +14,158 @@
 
 <body>
   <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <!-- sidebar.jinja -->
     <aside class="sidebar" data-sidebar>
-
       <div class="sidebar-info">
-
         <figure class="avatar-box">
           <img src="./config/assets/avatars/my-avatar.png" alt="Harsh Kilaji" width="80">
         </figure>
-
         <div class="info-content">
           <h1 class="name" title="Harsh Kilaji">Harsh Kilaji</h1>
-
           <p class="title">Tech Enthusiast</p>
         </div>
-
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
         </button>
-
       </div>
-
       <div class="sidebar-info_more">
         <div class="separator"></div>
-
         <ul class="contacts-list">
-
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
-              <a href="#" class="contact-link">harshkilaji@outlook.com</a>
+              <a href="mailto:harshkilaji@outlook.com" class="contact-link">harshkilaji@outlook.com</a>
             </div>
-
           </li>
-
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Mobile</p>
-
               <a href="tel:+91 6260994376" class="contact-link">+91 6260994376</a>
             </div>
-
           </li>
-
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="calendar-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
-
-              <time datetime="September 16, 2003">September 16, 2003</time>
+              <time datetime="2003-09-16">September 16, 2003</time>
             </div>
-
           </li>
-
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Location</p>
-
               <address>Bilaspur, Chhattisgarh, India</address>
             </div>
-
           </li>
-
         </ul>
-
         <div class="separator"></div>
-
         <ul class="social-list">
-
-
           <li class="social-item">
             <a href="https://www.facebook.com/harshkilaji16/" class="social-link" , target="_blank">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
-
           <li class="social-item">
             <a href="https://twitter.com/Harsh_Kilaji/" class="social-link" , target="_blank">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </li>
-
           <li class="social-item">
             <a href="https://www.linkedin.com/in/harshkilaji/" class="social-link" , target="_blank">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
-
           <li class="social-item">
             <a href="https://github.com/harshkilaji/" class="social-link" , target="_blank">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
-
-
         </ul>
-
       </div>
-
     </aside>
 
-    <!--
-      - #main-content
-    -->
-
+    
+    <!-- NAVBAR -->
     <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <!-- navbar.jinja -->
       <nav class="navbar">
-
         <ul class="navbar-list">
-
           <li class="navbar-item">
             <button class="navbar-link  active" data-nav-link>About</button>
           </li>
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
-
         </ul>
-
       </nav>
 
-
-      <!--
-        - #ABOUT
-      -->
-
-      <!-- about.jinja -->
+      
+      <!-- ABOUT -->
       <article class="about active" data-page="about">
-
         <header>
           <h2 class="h2 article-title">About me</h2>
         </header>
-
         <section class="about-text">
           <p>Hello and welcome to my portfolio! </p>
-          
           <p> My name is Harsh, and I am currently in my third year of Bachelor's degree. With a keen interest in computer science and a love for solving challenging problems. I have embarked on a journey to become a skilled software engineer.</p>
-
         </section>
-
-
-        <!--
-          - service
-        -->
-
+        
+        <!-- WHAT I'M DOING -->
         <section class="service">
-
           <h3 class="h3 service-title">What I'm doing</h3>
-
           <ul class="service-list">
-
             <li class="service-item">
-
               <div class="service-icon-box">
                 <img src="./config/assets/icons/compass.svg" alt="design icon" width="30" height="30">
               </div>
-
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Data Structures and Algorithms</h4>
                 <p class="service-item-text">
-                  Currently solved over 550 questions in LeetCode.
+                  Currently solved over 570 questions in LeetCode.
                 </p>
               </div>
-
             </li>
-
             <li class="service-item">
-
               <div class="service-icon-box">
                 <img src="./config/assets/icons/laptop-code.svg" alt="design icon" width="30" height="30">
               </div>
-
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Web Development</h4>
-
                 <p class="service-item-text">
                   Trying to create interactive & beautiful websites.
                 </p>
               </div>
-
             </li>
-
           </ul>
-
         </section>
-
-
-        <!--
-          - testimonials
-        -->
-
+        <!-- SOFT SKILLS -->
         <section class="testimonials">
-
           <h3 class="h3 testimonials-title">Soft Skills</h3>
-
           <ul class="testimonials-list has-scrollbar">
-
-
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
-
                 <figure class="testimonials-avatar-box">
                   <img src="./config/assets/icons/bolt.svg" alt="Fast Learner" width="60" data-testimonials-avatar>
                 </figure>
-
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Fast Learner</h4>
-
                 <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    I can quickly acquire new knowledge and adapt to changing technological environments.
-                  </p>
+                  <p>I can quickly acquire new knowledge and adapt to changing technological environments.</p>
                 </div>
-
               </div>
             </li>
-
-
-
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
-
                 <figure class="testimonials-avatar-box">
                   <img src="./config/assets/icons/user.svg" alt="Teamwork" width="60" data-testimonials-avatar>
                 </figure>
